@@ -1,0 +1,2 @@
+          BIAS             NSD             NSW             TPD  
+            NaN             NaN             NaN               0             NaN             NaN             NaN               0 

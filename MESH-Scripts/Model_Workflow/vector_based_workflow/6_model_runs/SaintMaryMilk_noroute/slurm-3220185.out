@@ -1,0 +1,34 @@
+ MESH 1.4 ---  (1773)
+ 
+ READING: MESH_input_run_options.ini
+   ERROR: The output folder does not exist: results
+ 
+ ERROR: Errors occurred during initialization.
+[gra216:6141 :0:6141] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6142 :0:6142] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6143 :0:6143] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6146 :0:6146] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6147 :0:6147] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6148 :0:6148] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6149 :0:6149] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6150 :0:6150] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6152 :0:6152] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6154 :0:6154] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+ Abnormal exit.
+[gra216:6156 :0:6156] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6162 :0:6162] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6163 :0:6163] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6165 :0:6165] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+[gra216:6144 :0:6144] Caught signal 11 (Segmentation fault: address not mapped to object at address 0x18)
+-1
+--------------------------------------------------------------------------
+Primary job  terminated normally, but 1 process returned
+a non-zero exit code. Per user-direction, the job has been aborted.
+--------------------------------------------------------------------------
+--------------------------------------------------------------------------
+mpirun detected that one or more processes exited with non-zero status, thus causing
+the job to be terminated. The first process to do so was:
+
+  Process name: [[48320,1],0]
+  Exit code:    255
+--------------------------------------------------------------------------
