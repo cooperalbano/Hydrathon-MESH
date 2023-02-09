@@ -1,0 +1,240 @@
+ MESH 1.4 ---  (1773)
+ 
+ READING: MESH_input_run_options.ini
+ READING: MESH_drainage_database.nc
+   WARNING: The variable 'ChnlSlope' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   WARNING: The variable 'lon' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   WARNING: The variable 'lat' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   WARNING: The variable 'ChnlLength' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   WARNING: The variable 'GridArea' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   WARNING: The variable 'GRU' being read from file as 'double' is being transferred to a variable of lower precision ('float'). Truncation may occur.
+   REMARK: 'IAK' is missing in the file. A single river class is assumed.
+   Active variables in the file: 17
+   Total number of grids: 1390
+   Total number of grids inside the basin: 1388
+   Side length of grid: 1.000000 m
+   Number of GRUs: 14
+   Number of land-based tiles: 2222
+   Number of river classes: 1
+ READING: MESH_input_soil_levels.txt
+   Number of soil layers: 3
+ 
+ READING: Resume run configuration
+   RESUMEFLAG is not active: RESUMEFLAG off
+   SAVERESUMEFLAG is not active: SAVERESUMEFLAG off
+ READING: MESH_parameters_CLASS.ini
+ READING: MESH_parameters_hydrology.ini
+ READING: MESH_parameters.txt
+   Active parameters in file: 1
+ READING: MESH_input_streamflow.txt
+   WARNING: The measured value at the simulation start date is zero.
+   This may cause channels to initialize with no storage.
+   Number of streamflow gauges: 2
+ READING: Climate forcing variables
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   OPENING: MESH_rdrsv2.1_2010-2018.nc
+     Skipping 2129 records.
+   BASEFLOW component is ACTIVE.
+ READING: outputs_balance.txt
+   Output variables: 10
+ 
+ 
+ DONE INTITIALIZATION
+ 
+ STARTING MESH
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   487
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   156
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   156
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   615
+  2010/03/31     3.960    78.779     0.000    57.251     0.132       NaN     4.905
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+WARNING: NON-CONVERGENCE AT POINT AT X,Y:      1   196
+  2010/04/30     2.780     4.830     0.000     1.879    61.451       NaN     0.884
+  2010/05/31     2.830     9.537     0.113     0.920    94.117       NaN     0.875
+  2010/06/30     2.780     1.335    15.500     0.795    79.234       NaN     0.779
+  2010/07/31    23.800     0.980    24.300     0.723    40.652       NaN     0.544
+  2010/08/31    55.500     0.744    38.800     0.809    55.243       NaN     0.511
+  2010/09/30    90.300     0.895    25.900     0.604    51.643       NaN     0.460
+  2010/10/31    18.500     0.610    24.700     0.553     7.983       NaN     0.407
+  2010/11/30    18.900     0.554    20.600     0.509    45.437       NaN     0.361
+  2010/12/31    18.400     0.505     4.050     0.468    22.218       NaN     0.342
+  2011/01/31     6.880     0.462     0.000     0.431    60.696       NaN     0.313
+  2011/02/28     7.360     0.427     0.000     0.401    24.003       NaN     0.261
+  2011/03/31     6.510     0.464     0.000     0.371    32.835       NaN     0.269
+  2011/04/30     6.800     1.782     0.000     1.503    46.573       NaN     0.559
+  2011/05/31     3.960     6.228     0.991     2.373   114.378       NaN     0.483
+  2011/06/30    18.000     0.336    42.500     0.297    87.279       NaN     0.376
+  2011/07/31    26.600     0.285    22.100     0.277    39.126       NaN     0.234
+  2011/08/31    84.700     0.264    65.100     0.258    23.213       NaN     0.185
+  2011/09/30   110.000     0.246    12.500     0.241     8.064       NaN     0.165
+  2011/10/31    49.300     0.247     7.390     0.225    25.089       NaN     0.229
+  2011/11/30    15.300     0.213    16.300     0.211    17.433       NaN     0.144
+  2011/12/31     8.380     0.199    17.300     0.198    13.620       NaN     0.139
+  2012/01/31     8.270     0.186     0.000     0.185    11.512       NaN     0.130
+  2012/02/29     6.030     0.174     0.000     0.174    17.132       NaN     0.114
+  2012/03/31     2.550     1.888     0.000     0.168    23.992       NaN     0.207
+  2012/04/30     2.830     2.348     0.000     0.327    48.191       NaN     0.149
+  2012/05/31     3.110     1.412     1.980     0.181    83.971       NaN     0.185
+  2012/06/30     9.350     0.807     8.160     0.137    53.457       NaN     0.153
+  2012/07/31    44.200     0.194    19.500     0.129    21.361       NaN     0.110
+  2012/08/31    45.300     0.120    22.900     0.122    17.909       NaN     0.085
+  2012/09/30    82.100     0.113    26.100     0.116     5.147       NaN     0.077
+  2012/10/31    17.900     0.149    15.900     0.109    35.538       NaN     0.092
+  2012/11/30     5.750     0.102    14.800     0.104    33.914       NaN     0.070
+  2012/12/31     6.030     0.095     1.730     0.098    19.004       NaN     0.068
+  2013/01/31    24.900     0.090     0.000     0.093    35.852       NaN     0.064
+  2013/02/28    13.200     0.086     0.000     0.089     7.448       NaN     0.055
+  2013/03/31     5.660     0.175     0.000     0.084    22.452       NaN     0.084
+  2013/04/30     3.120     1.858     0.000     0.101    35.889       NaN     0.243
+  2013/05/31     3.120     1.805     4.250     4.472    84.287       NaN     0.158
+  2013/06/30     5.860     0.606    23.900     0.073   101.606       NaN     0.255
+  2013/07/31    19.500     0.085    16.800     0.069    43.403       NaN     0.068
+  2013/08/31    58.600     0.088    51.500     0.066    37.053       NaN     0.082
+  2013/09/30    64.900     0.125    14.800     0.076    59.177       NaN     0.103
+  2013/10/31    25.600     0.069    22.100     0.060    13.313       NaN     0.041
+  2013/11/30     8.950     0.055    13.300     0.057    16.350       NaN     0.038
+  2013/12/31    15.700     0.052     3.170     0.055    39.221       NaN     0.037
+  2014/01/31     6.510     0.050     0.000     0.052    10.481       NaN     0.036
+  2014/02/28     4.810     0.048     0.000     0.050    10.010       NaN     0.031
+  2014/03/31     2.970     0.097     0.000     0.048    27.683       NaN     0.070
+  2014/04/30     2.550     1.946     0.000     0.120    29.817       NaN     0.190
+  2014/05/31     2.410     0.118     2.000     0.044    35.244       NaN     0.052
+  2014/06/30     5.780     0.493     8.000     0.042    90.882       NaN     0.274
+  2014/07/31    37.100     0.045     9.200     0.041    24.287       NaN     0.028
+  2014/08/31    75.300     0.899    18.700     0.045   124.596       NaN     0.188
+  2014/09/30    89.500     0.173    31.400     0.037    33.755       NaN     0.031
+  2014/10/31    18.300     0.057    15.900     0.036    14.664       NaN     0.026
+  2014/11/30    14.700     0.034    19.100     0.034    23.866       NaN     0.023
+  2014/12/31     8.670     0.032     2.500     0.033    12.181       NaN     0.022
+  2015/01/31    11.200     0.030     0.000     0.032    23.009       NaN     0.022
+  2015/02/28    14.200     0.038     0.000     0.031    14.647       NaN     0.019
+  2015/03/31     6.510     0.740     0.000     0.099    24.009       NaN     0.142
+  2015/04/30     6.230     0.098     0.000     0.028    19.144       NaN     0.025
+  2015/05/31    13.000     0.237     7.510     0.027    38.151       NaN     0.032
+  2015/06/30    27.400     0.059     5.100     0.026    25.278       NaN     0.028
+  2015/07/31    22.100     0.154     6.200     0.120    81.497       NaN     0.100
+  2015/08/31    89.800     0.027    24.500     0.024    19.119       NaN     0.018
+  2015/09/30    22.700     0.079    14.400     0.024    40.969       NaN     0.101
+  2015/10/31     7.450     0.025    14.800     0.023    29.307       NaN     0.037
+  2015/11/30     6.990     0.021     7.020     0.022    18.794       NaN     0.015
+  2015/12/31     5.580     0.020     1.670     0.021    17.150       NaN     0.014
+  2016/01/31     5.470     0.019     0.000     0.021    15.643       NaN     0.014
+  2016/02/29     6.230     0.038     0.000     0.020     7.243       NaN     0.014
+  2016/03/31     6.230     0.590     0.000     0.019    11.176       NaN     0.076
+  2016/04/30     3.820     0.491     0.000     0.099    63.965       NaN     0.059
+  2016/05/31     5.380     0.881     2.270     0.049    76.393       NaN     0.097
+  2016/06/30     7.960     0.035     3.990     0.017    53.413       NaN     0.029
+  2016/07/31    20.600     0.077    15.400     0.017    60.931       NaN     0.025
+  2016/08/31    45.900     0.097     9.030     0.016    26.275       NaN     0.020
+  2016/09/30    28.600     0.218    15.700     0.025    52.290       NaN     0.041
+  2016/10/31    14.400     0.028    15.000     2.845   110.860       NaN     0.134
+  2016/11/30     7.590     0.046     7.760     0.015     3.900       NaN     0.010
+  2016/12/31    11.700     0.016     1.080     0.014    18.249       NaN     0.010
+  2017/01/31    30.000     0.013     0.000     0.014    18.069       NaN     0.009
+  2017/02/28    19.500     0.015     0.000     0.013    23.506       NaN     0.010
+  2017/03/31     4.810     0.676     0.000     0.158    21.464       NaN     0.081
+  2017/04/30     2.980     3.230     0.000     0.013    32.195       NaN     0.057
+  2017/05/31     5.680     0.355     3.600     0.012    19.315       NaN     0.025
+  2017/06/30    26.700     0.172     5.810     0.012    29.253       NaN     0.057
+  2017/07/31    17.200     0.045    13.300     0.012    10.949       NaN     0.013
+  2017/08/31    92.300     0.013    16.700     0.011    10.470       NaN     0.008
+  2017/09/30    33.100     0.010    15.400     0.011    17.593       NaN     0.011
+  2017/10/31    13.600     0.010    12.600     0.011    30.711       NaN     0.015
+  2017/11/30     5.230     0.010    13.100     0.010    18.566       NaN     0.007
+  2017/12/31     4.400     0.009     2.490     0.010    27.500       NaN     0.007
+  2018/01/31     2.960     0.009     0.000     0.010     9.427       NaN     0.007
+  2018/02/28    27.200     0.009     0.000     0.009    27.511       NaN     0.006
+  2018/03/31     6.070     0.055     0.000     0.017    34.570       NaN     0.015
+  2018/04/30     4.550     8.454     0.000     0.013    16.422       NaN     0.184
+  2018/05/31     2.430     0.283     0.148     0.009    32.594       NaN     0.058
+  2018/06/30     2.810     0.371     8.230     0.008    42.586       NaN     0.033
+  2018/07/31    44.600     0.021    26.400     0.008    17.077       NaN     0.006
+  2018/08/31    68.600     1.119    14.900     0.008    20.417       NaN     0.020
+  2018/09/30    36.100     0.032    17.200     0.009    39.648       NaN     0.020
+  2018/10/31    16.300     0.021    11.700     0.008    18.779       NaN     0.010
+  2018/11/30     5.870     0.020    16.100     0.007    24.077       NaN     0.009
+ Reached simulation end date.
+ 
+ Basin water balance end of run totals (mm)
+   Total precipitation              =   4673.649
+   Total evapotranspiration         =            NaN
+   Total runoff                     =   16.52138
+     Overland         =  0.7610210E-03
+     Lateral          =   4.859766
+     Drainage (soil)  =   11.66122
+   Change in storage                =            NaN
+     Initial          =   582.5104
+     Final            =            NaN
+ 
+ 
+ Program has terminated normally.
