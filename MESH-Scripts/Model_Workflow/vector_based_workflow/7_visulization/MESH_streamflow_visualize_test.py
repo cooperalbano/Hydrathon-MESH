@@ -38,7 +38,7 @@ import matplotlib.pyplot as plt
 MESH_state_dir           = '../6_model_runs/SaintMaryMilk_RTE_2/results/' 
 Merit_catchment_shape    = '../../shapefiles/catchment/smm_catchments.shp'
 Merit_river_shape        = '../../shapefiles/river_network/smm_rivers.shp'
-WSC_stations             = '../../shapefiles/wsc.shp'
+WSC_stations             = '../../shapefiles/nat_flow_SMM.shp'
 outdir                   = '../workflow_data/domain_SaintMaryMilk/visualizations/'
 state_name               = 'MESH_output_streamflow.csv'
 
@@ -61,7 +61,7 @@ wsc         = gpd.read_file(WSC_stations)
 river       = gpd.read_file(Merit_river_shape)
 
 #%% setting input paramters 
-station = ['05AE029','11AA031']
+station = ['05AE027','11AA031']
 names   = ["observation","simulation"]  
 
 #%% convert Julian date to standard date 
@@ -106,14 +106,14 @@ m = len(station)
 fig,ax = plt.subplots(figsize=(20, 20))
 catchment.plot(color='white', edgecolor='k', label = 'Catchment Boundary', linewidth=0.1, ax = ax)
 river.plot(color='blue', label = 'River Network', linewidth=0.3, ax=ax)
-#wsc.plot(color='red', label = 'Water Survey Stations',ax=ax)
+wsc.plot(color='red', label = 'Water Survey Stations',ax=ax)
 
 # add label for WSC stations 
-#for i in range(m):
-#    plt.text(wsc['Longitude'][i]-0.05, wsc['Latitude'][i]+0.01, wsc['Station'][i], fontsize=14)
+for i in range(m):
+    plt.text(wsc['lon'][i]-0.05, wsc['lat'][i]+0.01, wsc['Station_No'][i], fontsize=14)
 
 # set lables 
-ax.set_title('BowBanff Basin')
+ax.set_title('St. Mary - Milk System')
 ax.set_xlabel('Longitude [degree east]')
 ax.set_ylabel('Latitude [degree north]')
 
