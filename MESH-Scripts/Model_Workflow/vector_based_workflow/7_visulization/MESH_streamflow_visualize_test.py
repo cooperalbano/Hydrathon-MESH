@@ -61,7 +61,7 @@ wsc         = gpd.read_file(WSC_stations)
 river       = gpd.read_file(Merit_river_shape)
 
 #%% setting input paramters 
-station = ['05AE027','11AA031']
+station = ['05AE027','11AA031','11AA025']
 names   = ["observation","simulation"]  
 
 #%% convert Julian date to standard date 

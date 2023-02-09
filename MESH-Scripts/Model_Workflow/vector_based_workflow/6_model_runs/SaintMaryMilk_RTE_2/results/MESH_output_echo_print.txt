@@ -28,10 +28,11 @@
  READING: MESH_input_streamflow.txt
    WARNING: The measured value at the simulation start date is zero.
    This may cause channels to initialize with no storage.
-   Number of streamflow gauges: 2
+   Number of streamflow gauges: 3
              GAUGE              IY              JX            RANK        DA (km2)
           05AE027              114               1             114    4521.083
           11AA031              525               1             525    3555.876
+          11AA025              278               1             278    734.4591
  READING: Climate forcing variables
    OPENING: MESH_rdrsv2.1_2010-2018.nc
    OPENING: MESH_rdrsv2.1_2010-2018.nc
@@ -257,4 +258,4 @@ Maximum values
  
  Program has terminated normally.
  
- Time = 9.492992 minutes (averaging 1.054777 minutes per simulation year).
+ Time = 9.593756 minutes (averaging 1.065973 minutes per simulation year).
